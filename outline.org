@@ -1,0 +1,38 @@
+* Cucumber and Selenium Presentation
+** Cucumber?
+*** Integration testing with stories
+**** Example of traditional Rails integration tests
+**** Example of Cucumber story
+*** Gherkin
+**** Given-When-Then
+**** Enumerate and model business requirements
+**** Executable documentation
+*** Webrat
+**** Simulates browser
+**** No JavaScript support
+*** Selenium
+**** Automates browsers
+**** Can drive Firefox, IE, Safari, etc.
+**** Future/Alternatives
+     - Webdriver
+     - Watir
+     - Culerity/Celerity
+     - Harmony (Johnson, env.js)
+** Running Selenium
+*** Installing webrat and selenium-client
+    gem install webrat -v0.7.0
+    gem install selenium-client
+
+    Webrat includes a fairly recent Selenium jar (2.0 alpha 1).
+
+*** Firefox 3.5.7
+    There are issues with 3.6.x, which may or may not be
+    resolved with the latest Selenium jar (2.0 alpha 2),
+    which isn't included in Webrat yet anyway.
+*** cucumber.yml
+*** selenium.rb
+*** plain/ & selenium/
+** Live Demo
+*** simulate & automate
+*** web_steps.rb & selenium_steps.rb
+*** CAS hack
