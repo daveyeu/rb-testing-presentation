@@ -1,5 +1,7 @@
 [
   {"section":"intro"},
+  {"section":"tdd"},
+  {"section":"rspec"},
   {"section":"cucumber"},
   {"section":"gherkin"},
   {"section":"webrat"},
